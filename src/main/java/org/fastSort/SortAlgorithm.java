@@ -1,4 +1,4 @@
-package org.countSort;
+package org.fastSort;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -10,10 +10,10 @@ public enum SortAlgorithm {
             Arrays.sort(array, comp);
         }
     },
-    COUNT_SORT {
+    SAMPLE_SORT {
         @Override
         <T> void sort(T[] array, int groupCount, Comparator<T> comp) {
-            CountingComparisonSort.sort(array, groupCount, comp);
+            SampleSort.sort(array, groupCount, comp);
         }
     };
     

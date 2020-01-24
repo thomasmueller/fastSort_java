@@ -1,9 +1,9 @@
-package org.countSort;
+package org.fastSort;
 
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class CountingComparisonSort {
+public class SampleSort {
 
     static <T> void sort(T[] data, int groups, Comparator<T> comp) {
         // number of elements to sort

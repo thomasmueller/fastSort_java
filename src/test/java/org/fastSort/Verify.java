@@ -1,9 +1,10 @@
-package org.countSort;
+package org.fastSort;
 
 import java.util.Comparator;
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicLong;
 
+import org.fastSort.SortAlgorithm;
 import org.junit.Test;
 
 public class Verify {
@@ -19,7 +20,7 @@ public class Verify {
             data[i] = r.nextLong();
             sum += data[i];
         }
-        SortAlgorithm.COUNT_SORT.sort(data, 3500, new Comparator<Long>() {
+        SortAlgorithm.SAMPLE_SORT.sort(data, 3500, new Comparator<Long>() {
             @Override
             public int compare(Long o1, Long o2) {
                 count.incrementAndGet();

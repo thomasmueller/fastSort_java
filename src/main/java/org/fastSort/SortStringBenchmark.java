@@ -1,4 +1,4 @@
-package org.countSort;
+package org.fastSort;
 
 import java.util.concurrent.TimeUnit;
 
@@ -6,10 +6,10 @@ import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.OutputTimeUnit;
 
 @OutputTimeUnit(TimeUnit.SECONDS)
-public class SortLongBenchmark {
+public class SortStringBenchmark {
 
     @Benchmark
-    public void sortLong(SortLongState state) {
+    public void sortLong(SortStringState state) {
         state.sort();
     }
 

@@ -1,4 +1,4 @@
-package org.countSort;
+package org.fastSort;
 
 import java.util.Arrays;
 import java.util.Comparator;

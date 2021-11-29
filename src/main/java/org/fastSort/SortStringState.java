@@ -13,7 +13,7 @@ public class SortStringState {
     @Param({"100000", "1000000", "10000000"})
     int size;
 
-    @Param({"JAVA_ARRAY_SORT", "COUNT_SORT"})
+    @Param({"JAVA_ARRAY_SORT", "SAMPLE_SORT"})
     SortAlgorithm type;
 
     // @Param({"2000", "2500", "3000", "3500", "4000", "4500", "5000"})
